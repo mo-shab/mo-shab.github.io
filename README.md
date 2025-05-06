@@ -1,2 +1,0 @@
-# Bankify-landingpage
-Landing page

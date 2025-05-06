@@ -1,231 +1,240 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Petopia's Landing Page." />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="images/bankify_favicon.png" type="image/x-icon" />
-    <title>Bankify</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Mohammed SHAB | Developer</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="Mohammed, SHAB, skill, software" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Mohammed SHAB | Developer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="Mohammed SHAB | Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Made using DevFolio Template" />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-122228201-4")
+    </script>
+    <!-- End of Google Analytics -->
   </head>
   <body>
-    <header>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main name">Mohammed SHAB</span>
+          <br />
+          I'm a Developer.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
       <div class="container">
-        <h1>Bankify</h1>
-        <nav>
-          <button class="menu-toggle" id="menu-toggle">&#9776;</button>
-          <ul id="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="https://scontent.fcmn2-1.fna.fbcdn.net/v/t1.6435-9/67983239_2418242251792696_8508896161216593920_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHumYWvY5yvPWsvvF1Zw1KCYIfihz4tnZdgh-KHPi2dl5JstOMF4LcTx1akl3NGq4gHiz3Azd7mXpAxVWgUvL5N&_nc_ohc=t-tTDJDE10wQ7kNvwGuiDxX&_nc_oc=AdkONRmnBKrddehvL-Ho9EyTTSN3H455S1GDhKpFMtRcJiZcy1RS6RgzdwcBgHx8PZM&_nc_zt=23&_nc_ht=scontent.fcmn2-1.fna&_nc_gid=hlhtlPwvjS2sbxIUL2yRDg&oh=00_AfJ03gQg1F2jI9RIUfTMgoVT7Ydifq6qqUWZF78S7CIBaw&oe=68419EE4"
+              alt="Profile Image"
+              width="450"
+              height="450"
+            />
+          </div>
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                Hello! I'm Mohammed SHAB, a passionate software engineer and photographer based in Mohammedia. I specialize in building efficient web applications and love working on creative multimedia projects.
+              </p>
+              <p class="about-wrapper__info-text">
+                With a background in automation and energy systems, I bring a unique perspective to problem-solving. I'm currently focused on developing tools that simplify digital workflows, like email backup systems and file management platforms.
+              </p>
+            </div>
+            
+            <span class="about-wrapper__cta">
+              <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
+            </span>
+          </div>
+        </div>
       </div>
-    </header>
-    <main>
-      <section class="main-page">
-        <div class="image-container">
-          <img
-            src="/images/cover_img.jpg"
-            alt="Cover Image"
-            class="cover-image"
-          />
-        </div>
-        <div class="hero">
-          <div class="container">
-            <h2><span class="hero-span">Welcome to Bankify</span></h2>
-            <p>Fortified by Security, Strenghtened by Trust.</p>
-            <div class="buttons">
-              <button
-                class="hero-btn"
-                id="hero-btn-1"
-                onclick="location.href='http://0.0.0.0:5000'"
-              >
-                Live Demo &rarr;
-              </button>
-              <button
-                class="hero-btn"
-                onclick="location.href='https://github.com/BitByteBender/Bankify'"
-              >
-                View Repository
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="features" class="features">
-        <h2 class="features-header">Features</h2>
-        <div class="features-container">
-          <div class="feature feature-1">
-            <div class="feature-image">
-              <img
-                class="features-img"
-                loading="lazy"
-                src="images/feature-1.png"
-                alt="features"
-              />
-            </div>
-            <div class="feature-description fd2">
-              <h2 class="features-title">Accounts Viewer</h2>
-              <p class="features-description">
-                The Accounts page is your central hub for managing all your financial information at a glance. Here, you can easily view each of your accounts along with key details, including current balances, and account status if it is on hold. With a clear and organized layout, tracking your finances has never been simpler, allowing you to stay on top of your financial health with ease.
-              </p>
-            </div>
-          </div>
+    </section>
+    <!-- /END About Section -->
 
-          <div class="feature feature-2">
-            <div class="feature-image">
-              <img
-                class="features-img"
-                loading="lazy"
-                src="images/feature-2.png"
-                alt="features"
-              />
-            </div>
-            <div class="feature-description fd2">
-              <h2 class="features-title">Transactions Viewer</h2>
-              <p class="features-description">
-                The Transactions page is your go-to place for tracking all your financial activity. Here, you can easily view and review every transaction, whether sent or received, in a clear and organized format. With real-time updates and detailed records, staying on top of your finances has never been more convenient or transparent.
-              </p>
-            </div>
-          </div>
-          <div class="feature feature-3">
-            <div class="feature-image">
-              <img
-                class="features-img"
-                loading="lazy"
-                src="images/feature-3.png"
-                alt="features"
-              />
-            </div>
-            <div class="feature-description fd2">
-              <h2 class="features-title">Transactcional - Swap system</h2>
-              <p class="features-description">
-                The Swap system offers a seamless way to transfer funds between any accounts within the platform, including your own. This powerful feature ensures secure and hassle-free transactions by automatically verifying the sender's balance and account status before processing the swap. With its robust safeguards and user-friendly interface, the Swap system makes managing your transfers quick, reliable, and effortless.
-              </p>
-            </div>
-        </div>
-      </section>
-
-      <section id="about" class="about">
-        <div class="container">
-          <h2>About Us</h2>
-          <p class="about-description">
-            The Bankify team believes that every client should have, these simple
-	    easy to use, robust tools on their disposal to transform their financial management experience. With Bankify, we empower clients to take control of their finances effortlessly, offering cutting-edge tools that are intuitive, reliable, and tailored to fit their unique needs. Whether you're managing personal accounts or complex business finances, our solutions are designed to streamline processes, enhance decision-making, and deliver unmatched convenience. Let Bankify be the key to unlocking smarter financial management for you, with simplicity at its core.
-          </p>
-        </div>
-      </section>
-      <section id="contact" class="contact">
-        <h2 class="features-header">Meet the Team</h2>
-        <div class="contact-container container">
-          <div class="contact-card">
-            <h2 class="contact-title">Soufiane Sadgali</h2>
-            <p class="contact-role">Backend Architect & Project Manager.</p>
-            <div class="socials">
-              <a href="#" target="_blank"
-                ><img
-                  class="contact-icon"
-                  src="images/linkedin_icon.png"
-                  alt="linkedin_icon"
-              /></a>
-              <a href="https://github.com/BitByteBender" target="_blank"
-                ><img
-                  class="contact-icon"
-                  src="images/github_icon.png"
-                  alt="github_icon"
-              /></a>
-              <a href="#" target="_blank"
-                ><img
-                  class="contact-icon"
-                  src="images/twitter_icon.png"
-                  alt="twitter_icon"
-              /></a>
-            </div>
-          </div>
-          <div class="contact-card">
-            <h2 class="contact-title">Mohammed Shab</h2>
-            <p class="contact-role">Back-end Engineer.</p>
-            <div class="socials">
-              <a href="#" target="_blank"
-                ><img
-                  class="contact-icon"
-                  src="images/linkedin_icon.png"
-                  alt="linkedin_icon"
-              /></a>
-              <a href="https://github.com/mo-shab" target="_blank"
-                ><img
-                  class="contact-icon"
-                  src="images/github_icon.png"
-                  alt="github_icon"
-              /></a>
-              <a href="#" target="_blank"
-                ><img
-                  class="contact-icon"
-                  src="images/twitter_icon.png"
-                  alt="twitter_icon"
-              /></a>
-            </div>
-          </div>
-          <div class="contact-card">
-            <h2 class="contact-title">Olutunji Oluwadare</h2>
-            <p class="contact-role">- Front-end Engineer.</p>
-            <div class="socials">
-              <a
-                href="#"
-                target="_blank"
-                ><img
-                  class="contact-icon"
-                  src="images/linkedin_icon.png"
-                  alt="linkedin_icon"
-              /></a>
-              <a href="https://github.com/DevTunechi" target="_blank"
-                ><img
-                  class="contact-icon"
-                  src="images/github_icon.png"
-                  alt="github_icon"
-              /></a>
-              <a href="#" target="_blank"
-                ><img
-                  class="contact-icon"
-                  src="images/twitter_icon.png"
-                  alt="twitter_icon"
-              /></a>
-            </div>
-          </div>
-	<div class="contact-card">
-            <h2 class="contact-title">Githinji Justus</h2>
-            <p class="contact-role">Back-end Engineer.</p>
-            <div class="socials">
-              <a href="#" target="_blank"
-                ><img
-                  class="contact-icon"
-                  src="images/linkedin_icon.png"
-                  alt="linkedin_icon"
-              /></a>
-              <a href="https://github.com/GithinjiJustus" target="_blank"
-                ><img
-                  class="contact-icon"
-                  src="images/github_icon.png"
-                  alt="github_icon"
-              /></a>
-              <a href="#" target="_blank"
-                ><img
-                  class="contact-icon"
-                  src="images/twitter_icon.png"
-                  alt="twitter_icon"
-              /></a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
+    <!--Projects Section-->
+    <section id="projects">
       <div class="container">
-        <p>Copyright &copy; Bankify 2024</p>
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <p class="project-wrapper__text-info">
+                The JLPT Platform is a web-based application that simplifies the registration process for the Japanese Language Proficiency Test (JLPT). It allows users to create an account, fill out the required personal information, select their exam level (N5 to N1), choose a test location, and submit their application online. The platform also provides confirmation tracking and email notifications to keep users informed about their application status. Designed with accessibility and efficiency in mind, it ensures a smooth experience for both candidates and administrators.
+
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="https://github.com/mo-shab/JLPT_Registration_Form" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-wrapper">
+      <p class="contact-wrapper__text">
+        Interested in collaborating, hiring me for a project, or just want to connect? Feel free to reach out!
+      </p>
+      <a href="mailto:mrlcoud.med@gmail.com" class="cta-btn cta-btn--resume">Send Me an Email</a>
+    </div>
+  </div>
+</section>
+<!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/moshab/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/mo-shab"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> - Made with &hearts;
+        </p>
       </div>
     </footer>
-    <script src="script.js"></script>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
   </body>
 </html>
